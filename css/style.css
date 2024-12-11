@@ -101,6 +101,15 @@ nav{
 
    /*services*/
    
+   span{
+    color: rgb(255, 106, 52);
+    font-family: var(--poppins);
+   }
+
+   h1{
+    color: #000;
+    font-family: var(--josefin);
+   }
    
    .services .contant span{
     letter-spacing: 2px;
