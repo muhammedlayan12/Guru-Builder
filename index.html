@@ -27,28 +27,24 @@
 
 
     <!--preloader starting--> 
-  <div class="preloader">
-    <svg viewBox="25 25 50 50">
-        <circle r="20" cy="50" cx="50"></circle>
-      </svg>
-  </div>
-
-
-    <!--preloaderendting-->
+    <div class="preloader">
+        <div class="spinner"></div>
+      </div>
+         <!--preloaderendting-->
 
     <!-- Navbar Starting -->
-    <nav class="flex absolute w-full sm:flex-row z-50 absolute bg-transparent flex-row-reverse   lg:justify-around justify-between px-4 items-center py-2 font-poppins">
+    <nav class="flex absolute bg-black w-full sm:flex-row z-50 sticky top-0 flex-row-reverse   lg:justify-around justify-between px-4 items-center py-2 font-poppins">
         <i class="fa-solid fa-bars text-white bg-[#ff8800] py-2 px-2 rounded-md block cursor-pointer md:hidden" onclick="navToggle()"></i>
         <div class="logo">
             <img src="./images/logo.png" alt="Logo" class="sm:w-[120px] w-[100px]">
         </div>
         <ul class="md:flex hidden lg:gap-8 gap-4">
-           <li><a class="text-black transition-all duration-700 hover:text-[orange]" href="./index.html">Home</a></li>
-           <li><a class="text-black transition-all duration-700 hover:text-[orange]" href="./project.html">Project</a></li>
-           <li><a class="text-black transition-all duration-700 hover:text-[orange]" href="./t20.html">T20 Tower</a></li>
-           <li><a class="text-black transition-all duration-700 hover:text-[orange]" href="./about.html">About</a></li>
-           <li><a class="text-black transition-all duration-700 hover:text-[orange]" href="./team.html">Team</a></li>
-           <li><a class="text-black transition-all duration-700 hover:text-[orange]" href="./contact.html">Contact</a></li> 
+           <li><a class="text-white transition-all duration-700 hover:text-[orange]" href="./index.html">Home</a></li>
+           <li><a class="text-white transition-all duration-700 hover:text-[orange]" href="./project.html">Project</a></li>
+           <li><a class="text-white transition-all duration-700 hover:text-[orange]" href="./t20.html">T20 Tower</a></li>
+           <li><a class="text-white transition-all duration-700 hover:text-[orange]" href="./about.html">About</a></li>
+           <li><a class="text-white transition-all duration-700 hover:text-[orange]" href="./team.html">Team</a></li>
+           <li><a class="text-white transition-all duration-700 hover:text-[orange]" href="./contact.html">Contact</a></li> 
         </ul>
         <div class="sm:block hidden">
             <button class="bg-[#ff8800]  text-white px-4 py-2 rounded-md font-outfit">View Project</button>
@@ -111,6 +107,72 @@
      </section>
     <!-- Services Ending -->
 
+
+    <!--About us Starting-->
+    <div  class="about flex lg:text-left text-center lg:gap-0 gap-20 lg:flex-row-reverse py-20 px-3 flex-col items-center  justify-evenly">
+    <div class="content flex flex-col  gap-4  " data-aos="fade-up">
+        <span class="text-[0.9em] font-[501] uppercase">About Us</span>
+        <h1 class="lg:text-4xl sm:text-3xl text-2xl">Welcome To Guru Builders<br> & Developers</h1>
+        <p class="sm:w-[400px] text-[0.9em] w-[90%]">Guru Builder & Developers is revolutionizing Pakistan's real estate landscape through groundbreaking designs and top-tier infrastructure. We strive for excellence, surpass expectations, and redefine the future of residential and commercial spaces.</p>
+        <div  class="trused flex flex-col gap-2">
+            <p class="text-left flex gap-2 sm:text-[0.9em] text-[0.7em]"><img src="./images/tick.svg" alt="">Multi-Family Units (Duplexes, Triplexes, etc.)</p>
+            <p class="text-left flex gap-2 sm:text-[0.9em] text-[0.7em]"><img src="./images/tick.svg" alt="">100% Satisfaction guarantee </p>
+            <p class="text-left flex gap-2 sm:text-[0.9em] text-[0.7em]"><img src="./images/tick.svg" alt="">Research and Development Facilities</p>
+            <p class="text-left flex gap-2 sm:text-[0.9em] text-[0.7em]"><img src="./images/tick.svg" alt="">Industrial Properties (Warehouses, Factories)</p>
+        </div>
+        <div>
+            <a class="py-2 px-8 text-white" href="about.html">More About Us</a>
+        </div>
+    </div>
+        <div class="flex " data-aos="fade-up">
+            <img class="  rounded-xl relative" src="./images/about1.png" alt="">
+            <img class="sm:block hidden rounded-xl absolute top-[-20%] left-[-20%]" src="./images/about2.png" alt="">
+            <img class="sm:block hidden rounded-xl absolute bottom-[-20%] right-[-20%]" src="./images/about3.png" alt="">
+        </div>
+    </div>
+    <!--About us Ending-->
+
+    
+    <!--services starting-->
+    <section data-aos="fade-down" class="services flex flex-col gap-10 text-center justify-center py-20 px-4">
+        <div class="contant flex flex-col gap-4">
+            <span class="sm:text-[0.9em] text-[0.8em] uppercase">Services</span>
+            <h1 class="lg:text-4xl sm:text-3xl text-2xl font-[500]">Your Best Possible Solutions</h1>
+            <p class="sm:text-[0.9em] text-[0.8em] sm:w-[400px] w-[85%] m-auto">Our thoughtfully designed neighborhood, which offers a special blend of eco-friendly living and convenience, is a monument to sustainable growth.</p>
+        </div>
+        <div class="service flex gap-6 justify-center flex-wrap">
+            <div class="servic flex text-left flex-col gap-5 border border-[orange] py-10 px-4 rounded-2xl">
+                <div class="content flex flex-col gap-3">
+                    <img class="py-4 px-4 border border-[orange] rounded-full" src="./images/service-icon3-1.svg" alt="" width="75px">
+                    <h1 class="sm:text-2xl font-bold">Safe & Trustworthy</h1>
+                    <p class="sm:text-[0.9em] text-[0.8em]">These properties are used for business purposes,<br> such as office buildings,  </p>
+
+                </div>
+                <img src="./images/3-1.png" alt="" class="rounded-2xl">
+            </div>
+            <div class="servic flex text-left flex-col gap-5 border border-[orange] py-10 px-4 rounded-2xl">
+                <div class="content flex flex-col gap-3">
+                    <img class="py-4 px-4 border border-[orange] rounded-full" src="./images/service-icon4-1.svg" alt="" width="75px">
+                    <h1 class="sm:text-2xl font-bold">Trusted Developer</h1>
+                    <p class="sm:text-[0.9em] text-[0.8em]">These properties are used for business purposes,<br> such as office buildings,  </p>
+
+                </div>
+                <img src="./images/3-2.png" alt="" class="rounded-2xl">
+            </div>
+            <div class="servic flex text-left flex-col gap-5 border border-[orange] py-10 px-4 rounded-2xl">
+                <div class="content flex flex-col gap-3">
+                    <img class="py-4 px-4 border border-[orange] rounded-full" src="./images/service-icon3-3.svg" alt="" width="75px">
+                    <h1 class="sm:text-2xl font-bold">Customer Support</h1>
+                    <p class="sm:text-[0.9em] text-[0.8em]">These properties are used for business purposes,<br> such as office buildings,  </p>
+
+                </div>
+                <img src="./images/3-3.png" alt="" class="rounded-2xl">
+            </div>
+        </div>
+    </section>
+    <!--services ending-->
+
+
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -120,7 +182,7 @@
     <script src="./js/script.js"></script>
     <script>
         AOS.init({
-            duration:2000,
+            duration:1500,
         });
     </script>
 </body>

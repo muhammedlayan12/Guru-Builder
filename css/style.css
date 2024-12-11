@@ -32,67 +32,108 @@ nav{
  .rate{
     font-family:var(--poppins);
  }
-
-/*preloader css*/
-/* From Uiverse.io by barisdogansutcu */ 
-
-.preloader{
+ .preloader {
     position: fixed;
-    width: 100%;
-    height: 100%;
     top: 0;
     left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgb(255, 255, 255);
     width: 100%;
     height: 100%;
-    align-content: center;
-    align-items: center;
+    background-color: white;
+    display: flex;
     justify-content: center;
+    align-items: center;
     z-index: 9999;
-    display: block;
-}
+  }
 
-.preloader.hide{
+  .preloader.hide{
     display: none;
-}
-svg {
-    width: 3.25em;
-    transform-origin: center;
-    animation: rotate4 2s linear infinite;
-    margin: auto;
-   }
-   
-   circle {
-    fill: none;
-    stroke: rgb(255, 106, 52);
-    stroke-width: 4;
-    stroke-dasharray: 1, 200;
-    stroke-dashoffset: 0;
-    stroke-linecap: round;
-    animation: dash4 1.5s ease-in-out infinite;
-   }
-   
-   @keyframes rotate4 {
-    100% {
-     transform: rotate(360deg);
-    }
-   }
-   
-   @keyframes dash4 {
+  }
+  
+  .spinner {
+    width: 50px;
+    height: 50px;
+    border: 5px solid rgb(255, 106, 52);
+    border-top: 5px solid #fff;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
     0% {
-     stroke-dasharray: 1, 200;
-     stroke-dashoffset: 0;
+      transform: rotate(0deg);
     }
-   
-    50% {
-     stroke-dasharray: 90, 200;
-     stroke-dashoffset: -35px;
-    }
-   
     100% {
-     stroke-dashoffset: -125px;
+      transform: rotate(360deg);
     }
+  }
+  
+
+
+   /*about*/
+   .about .content span{
+    letter-spacing: 2px;
+    font-family: var(--poppins);
+    color: rgb(255, 106, 52);
    }
+
+
+   .about .content h1{
+    font-weight: 500;
+    font-family: var(--josefin);
+   }
+
+
+
+
+   .about .content p{
+    color: #333;
+    font-family: var(--poppins);
+   }
+
+   .about .content .trused p {
+    color: #000;
+   }
+
+
+
+
+
+
+   /*services*/
    
+   
+   .services .contant span{
+    letter-spacing: 2px;
+    font-family: var(--poppins);
+    color: rgb(255, 106, 52);
+   }
+
+   .services .contant h1{
+    font-family: var(--josefin);
+    color: #000;
+   }
+
+
+
+   
+   .services .contant p{
+    font-family: var(--poppins);
+    color: #333;
+   }
+
+
+   .services .service .servic{
+    font-family: var(--poppins); 
+   }
+
+   
+   
+   .services .service .servic p{ 
+    color: #333;
+   }
+
+
+     
+   .services .service .servic h1{ 
+    color: #000000;
+   }
