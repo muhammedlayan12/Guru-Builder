@@ -9,11 +9,12 @@ const navToggle = () =>{
 
  
 
-window.addEventListener('load', () => {
-    const loading = document.getElementsByClassName('preloader')[0];
-    loading.classList.toggle("hide ");
-});
+// window.addEventListener('load', () => {
+//     const loading = document.getElementsByClassName('preloader')[0];
+//     loading.classList.toggle("hide ");
+// });
 
+ 
 
 
 //FAQs Section js
