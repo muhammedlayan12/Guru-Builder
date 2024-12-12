@@ -14,6 +14,17 @@ nav{
     --outfit:"Outfit",sans-serif;
 }
 
+a{
+  font-family: var(--poppins);
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: var(--josefin);
+}
+
+p{
+  font-family: var(--poppins);
+}
 
 .sideMenu.open{
     left: 0;
@@ -40,6 +51,7 @@ nav{
     height: 100%;
     background-color: white;
     display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     z-index: 9999;
@@ -147,3 +159,14 @@ nav{
     color: #000000;
    }
  
+
+   .secs .content p{
+    font-family: var(--poppins);
+   }
+
+
+
+
+   .secs .content .sec div h4{
+    font-family: var(--josefin);
+   }

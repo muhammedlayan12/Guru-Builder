@@ -11,5 +11,20 @@ const navToggle = () =>{
 
 window.addEventListener('load', () => {
     const loading = document.getElementsByClassName('preloader')[0];
-    loading.classList.toggle("hide");
+    loading.classList.toggle("hide ");
+});
+
+
+
+//FAQs Section js
+
+ 
+$(document).ready(function () {
+    $(".faqTittle").hide();  
+
+    $(".watch").click(function () {
+ 
+ 
+        $(this).closest(".accordion").find(".faqTittle").slideToggle("slow");
+    });
 });
