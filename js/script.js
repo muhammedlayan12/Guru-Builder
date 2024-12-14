@@ -8,12 +8,10 @@ const navToggle = () =>{
 //preloader
 
  
-
-// window.addEventListener('load', () => {
-//     const loading = document.getElementsByClassName('preloader')[0];
-//     loading.classList.toggle("hide ");
-// });
-
+window.addEventListener("load", function() {
+    document.body.classList.add('loaded');
+  });
+  
  
 
 
@@ -29,3 +27,16 @@ $(document).ready(function () {
         $(this).closest(".accordion").find(".faqTittle").slideToggle("slow");
     });
 });
+
+
+ 
+
+//for,m value on submit\
+
+
+document.querySelector('#contact-form').addEventListener('submit', (e) => {
+    e.preventDefault();
+    e.target.elements.name.value = '';
+    e.target.elements.email.value = '';
+    e.target.elements.message.value = '';
+  });
