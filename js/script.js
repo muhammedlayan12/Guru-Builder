@@ -40,3 +40,15 @@ document.querySelector('#contact-form').addEventListener('submit', (e) => {
     e.target.elements.email.value = '';
     e.target.elements.message.value = '';
   });
+
+
+
+  //whatsapp dynamicly msg
+
+ 
+    // let url = "https://api.whatsapp.com/send/?phone=923342972215&text=Hello%20Guru%20Builders&type=phone_number&app_absent=0";
+    // let btn = document.querySelectorAll("#whatsapp");
+    // btn.addEventListener("click",function(){
+    //     alert("Hello");
+    // });
+ 

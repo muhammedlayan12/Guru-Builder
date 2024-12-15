@@ -4,11 +4,11 @@
 }
 
 ::-webkit-scrollbar-track {
-  background: #ffc889; 
+  background: #ffc889;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #ff8800;  
+  background: #eccd50;  
 }
  
 /* Preloader styles */
@@ -31,7 +31,7 @@
   width: 50px;
   height: 50px;
   border: 5px solid white;
-  border-top: 5px solid orange;
+  border-top: 5px solid #eccd50;
   border-radius: 50%;
   animation: spin 1s linear infinite;
 }
@@ -55,6 +55,7 @@ body.loaded .preloader {
 body.loaded .content {
   display: block;
 }
+
 
 
 body{
@@ -109,7 +110,7 @@ p{
    .about .content span{
     letter-spacing: 2px;
     font-family: var(--poppins);
-    color: rgb(255, 106, 52);
+    color: #eccd50;
    }
 
 
@@ -138,7 +139,7 @@ p{
    /*services*/
    
    span{
-    color: rgb(255, 106, 52);
+    color: #eccd50;
     font-family: var(--poppins);
    }
 
@@ -150,7 +151,7 @@ p{
    .services .contant span{
     letter-spacing: 2px;
     font-family: var(--poppins);
-    color: rgb(255, 106, 52);
+    color: #eccd50;
    }
 
    .services .contant h1{
