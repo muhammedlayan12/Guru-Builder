@@ -8,7 +8,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #eccd50;  
+  background: #bf9b30;  
 }
  
 /* Preloader styles */
@@ -31,7 +31,7 @@
   width: 50px;
   height: 50px;
   border: 5px solid white;
-  border-top: 5px solid #eccd50;
+  border-top: 5px solid #bf9b30;
   border-radius: 50%;
   animation: spin 1s linear infinite;
 }
@@ -110,7 +110,7 @@ p{
    .about .content span{
     letter-spacing: 2px;
     font-family: var(--poppins);
-    color: #eccd50;
+    color: #bf9b30;
    }
 
 
@@ -139,7 +139,7 @@ p{
    /*services*/
    
    span{
-    color: #eccd50;
+    color: #bf9b30;
     font-family: var(--poppins);
    }
 
@@ -151,7 +151,7 @@ p{
    .services .contant span{
     letter-spacing: 2px;
     font-family: var(--poppins);
-    color: #eccd50;
+    color: #bf9b30;
    }
 
    .services .contant h1{
