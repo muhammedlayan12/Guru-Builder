@@ -52,7 +52,7 @@
            <li><a class="text-white transition-all duration-700 hover:text-[orange]" href="./index.html">Home</a></li>
            <li><a class="text-white transition-all duration-700 hover:text-[orange]" href="./about.html">About Us</a></li>
            <li><a class="text-white transition-all duration-700 hover:text-[orange]" href="./t20.html">T20 Tower</a></li>
-           <li><a class="text-white transition-all duration-700 hover:text-[orange]" href="./project.html">Project</a></li>
+           <li><a class="text-white transition-all duration-700 hover:text-[orange]" href="./project.html">Projects</a></li>
            <li><a class="text-white transition-all duration-700 hover:text-[orange]" href="./team.html">Team</a></li>
            <li><a class="text-white transition-all duration-700 hover:text-[orange]" href="./contact.html">Contact</a></li> 
         </ul>
@@ -67,7 +67,7 @@
                 <li><a href="./index.html">Home</a></li>
                 <li><a href="./about.html">About Us</a></li>
                 <li><a href="./t20.html">T20 Tower</a></li>
-                <li><a href="./project.html">Project</a></li>
+                <li><a href="./project.html">Projects</a></li>
                 <li><a href="./team.html">Team</a></li>
                 <li><a href="./contact.html">Contact</a></li> 
              </ul>
@@ -135,14 +135,27 @@
     
     <!--Trusted ending-->
     <!--Video starting-->
-    <div data-aos="fade-up"  class="flex py-20 px-4 lg:flex-row flex-col items-center justify-center gap-20">
-      <iframe class="w-[100%] sm:w-[500px]" height="315" src="https://www.youtube.com/embed/WNe0RQByFHs?si=h0RXC7KNF687IlhW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-      <div class="content flex flex-col gap-5 "><h1 class="sm:text-4xl text-2xl  text-black">
-        Guru Builders & Developers - Trusted & Authentic Services
-      </h1>
-          <p class="sm:text-[0.9em] text-[0.8em] text-[#666] xl:w-[550px] lg:w-[400px] w-[100%]">"Guru Builders & Developers is a name you can trust for reliable and authentic construction and development services. With a proven track record of delivering quality projects, we specialize in creating homes and commercial spaces that meet modern standards and client expectations. Our expert team focuses on attention to detail, innovative design, and timely completion, ensuring complete satisfaction for every project. Choose us to turn your vision into reality with professionalism and excellence.</p>
+    <div data-aos="fade-up" class="flex py-20 px-4 lg:flex-row-reverse flex-col items-center justify-center gap-20">
+      <!-- Video instead of iframe -->
+      <div class="content flex flex-col gap-5">
+          <h1 class="sm:text-4xl text-2xl text-black">
+              Guru Builders & Developers - Trusted & Authentic Services
+          </h1>
+          <p class="sm:text-[0.9em] text-[0.8em] text-[#666] xl:w-[550px] lg:w-[400px] w-[100%]">
+              "Guru Builders & Developers is a name you can trust for reliable and authentic construction and development services. With a proven track record of delivering quality projects, we specialize in creating homes and commercial spaces that meet modern standards and client expectations. Our expert team focuses on attention to detail, innovative design, and timely completion, ensuring complete satisfaction for every project. Choose us to turn your vision into reality with professionalism and excellence."
+          </p>
+      </div>
+      <!-- Add Video -->
+      <div class="video-container">
+        <video class="w-full sm:w-[500px]" height="315" controls autoplay muted loop>
+          <source src="./images/Guru Builders .mp4" type="video/mp4">
+          <source src="your-video-file.ogg" type="video/ogg">
+          Your browser does not support the video tag.
+      </video>
+      
       </div>
   </div>
+  
    <!--Video ending-->
     <!--About us Starting-->
     <div  class="about flex lg:text-left text-center lg:gap-0 gap-20 lg:flex-row-reverse py-20 px-3 flex-col items-center  justify-evenly">
@@ -454,8 +467,7 @@
       <div class="grid m-auto justify-center sm:grid-cols-2 sm:w-[70%] w-[90%] grid-cols-1">
        
        <div data-aos="fade-up"  class="flex gap-4 flex-col justify-center items-center  rounded-2xl  py-4 px-2">
-         <img src="https://i.pinimg.com/originals/07/33/ba/0733ba760b29378474dea0fdbcb97107.png" alt="" width="60" class="rounded-full">
-         <div class="content flex   justify-center flex-col gap-2 ">
+             <div class="content flex   justify-center flex-col gap-2 ">
            <h5>Sultan Nazeer
           </h5> 
            <div class="flex gap-2 justify-center my-2 text-[0.8em] text-[#bf9b30]">
@@ -470,8 +482,7 @@
        </div>
  
        
-       <div  data-aos="fade-up" class="flex gap-4 flex-col justify-center items-center  rounded-2xl  py-4 px-2">
-         <img src="https://fotecmx-resources.s3.amazonaws.com/home/testimoniales3.jpg" alt="" width="60" class="rounded-full">
+       <div  data-aos="fade-up" class="flex gap-4 flex-col justify-center items-center  rounded-2xl  py-4 px-2"> 
          <div class="content  justify-center  flex flex-col gap-2">
            <h5>Moiz Ahsan
           </h5>  
@@ -486,12 +497,13 @@
        </div>
        
        <div data-aos="fade-up"  class="flex gap-4 flex-col justify-center items-center  rounded-2xl  py-4 px-2">
-         <img src="https://chiaralatuabolletta.it/wp-content/uploads/2023/05/Fabrizio.jpg" alt="" width="60" class="rounded-full">
+         
          <div class="content  justify-center  flex flex-col gap-2">
-           <h5>Ahmed Abba</h5> 
+           <h5>Ahmed Abbas</h5> 
            <div class="flex gap-2 justify-center my-2 text-[0.8em] text-[#bf9b30]">
              <i class="fa-solid fa-star"></i>
              <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i> 
              <i class="fa-solid fa-star"></i> 
            </div>
            <p class="sm:text-[0.9em] text-[0.8em]">Working with Guru Builders has been a great experience. Their attention to detail and commitment to quality is impressive. Dua Palace 2 reflects their dedication to delivering top-class projects, and I’m very satisfied with how everything is progressing.</p>
@@ -499,8 +511,7 @@
        </div>
        
        <div  data-aos="fade-up" class="flex gap-4 flex-col justify-center items-center  rounded-2xl  py-4 px-2">
-         <img src="https://avatars.mds.yandex.net/i?id=48a26bd90501e6478c8a96755ebfeb2e60abd903-9236004-images-thumbs&n=13" alt="" width="60" class="rounded-full">
-         <div class="content   justify-center flex flex-col gap-2">
+          <div class="content   justify-center flex flex-col gap-2">
            <h5>Furqan Ali
           </h5>  
            <div class="flex gap-2 justify-center my-2 text-[0.8em] text-[#bf9b30]">
