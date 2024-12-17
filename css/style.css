@@ -11,6 +11,22 @@
   background: #bf9b30;  
 }
  
+.recidency .recidencia .content{
+  display: flex;
+  font-family: var(--poppins);
+  flex-direction: column;
+  gap: 2vmin !important;
+}
+
+  .recidencia {
+  display: flex;
+  font-family: var(--poppins);
+  flex-direction: column;
+  gap: 2vmin !important;
+}
+.recidency button{
+  font-family: var(--poppins);
+}
 /* Preloader styles */
 .preloader {
   position: fixed;
