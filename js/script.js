@@ -78,3 +78,21 @@ document.querySelector('#contact-form').addEventListener('submit', (e) => {
 //   // Change the background image when the video ends
 //   hero.style.backgroundImage = "url('../images/hero3.png')";  // New background image
 // });
+
+
+
+
+let currentSlide = 0;
+const slides = document.querySelectorAll('.slider');
+const totalSlides = slides.length;
+
+function changeSlide() {
+ 
+  slides[currentSlide].style.opacity = 0;
+ 
+  currentSlide = (currentSlide + 1) % totalSlides;
+ 
+  slides[currentSlide].style.opacity = 1;
+}
+ 
+setInterval(changeSlide, 700);
