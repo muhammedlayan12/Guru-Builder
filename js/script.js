@@ -63,3 +63,18 @@ document.querySelector('#contact-form').addEventListener('submit', (e) => {
             video.pause();  
         }
     };
+
+
+
+
+//  // Get the video element
+// const video = document.getElementById('background-video');
+
+// // Get the hero section element
+// const hero = document.querySelector('.hero');
+
+// // Listen for the 'ended' event on the video
+// video.addEventListener('ended', () => {
+//   // Change the background image when the video ends
+//   hero.style.backgroundImage = "url('../images/hero3.png')";  // New background image
+// });
