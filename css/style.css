@@ -1,4 +1,4 @@
- 
+
 ::-webkit-scrollbar {
   width: 8px;
 }
@@ -10,7 +10,9 @@
 ::-webkit-scrollbar-thumb {
   background: #E3B419;  
 }
+
  
+
 .recidency .recidencia .content{
   display: flex;
   font-family: var(--poppins);
@@ -559,4 +561,15 @@ hr {
   100% {
     opacity: 0;
   }
+}
+
+
+marquee{
+  display: flex;
+}
+marquee h1 {
+  font-family: "Poppins",sans-serif;
+  font-size: 5em;
+  color: #E3B419;
+  font-weight: 600;
 }
