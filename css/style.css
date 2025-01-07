@@ -112,7 +112,7 @@ p{
   .hero {
     position: relative;
     overflow: hidden;
-    background-image: url("https://i.ytimg.com/vi/_YKTn_teTf4/maxresdefault.jpg"); /* Set initial background image */
+    background-image: url("../images/a-photo-of-a-luxury-flat-that-is-fully-f_OroWkt2hSe2rSe5SALQlvw_88sL4WXIT_KwyTkKw1V9LA.jpeg.jpg"); /* Set initial background image */
     background-size: cover;
     background-position: center;
     transition: background-image 1s ease-in-out; /* Smooth fade transition for background image */
